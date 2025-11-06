@@ -103,7 +103,7 @@ header {
   margin: 20px;
 }
 
-.but_style { 
+.butStyle { 
   background-color: black; 
   border-radius: 50px;
   color: white; 
@@ -120,7 +120,7 @@ header {
   margin-top: 50px;
 }
 
-.footer_style {
+.footerStyle {
   margin-top: 10px;
   font-size: 14px;
   color: black;
