@@ -86,13 +86,6 @@ article {
   }
 }
 
-.center {
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 p {
   text-align: justify;
   margin: 30px;
@@ -103,7 +96,7 @@ header {
   margin: 20px;
 }
 
-.butStyle { 
+a { 
   background-color: black; 
   border-radius: 50px;
   color: white; 
@@ -116,11 +109,7 @@ header {
   cursor: pointer;
 }
 
-.but_3{
-  margin-top: 50px;
-}
-
-.footerStyle {
+footer {
   margin-top: 10px;
   font-size: 14px;
   color: black;
@@ -128,5 +117,19 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+/* ====== Center Class ====== */
+
+.center {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* === Specific Button Styles === */
+
+.button3-add-margin{
+  margin-top: 50px;
 }
