@@ -15,10 +15,10 @@
       <form>
         <!-- write your html here-->
 
-        <label for="customers-name">Name:</label>
-          <input type="text" id="customers-name" name="name" pattern=".{2,}" required/>
+        <label for="customers-name">Name*:</label>
+          <input type="text" id="customers-name" name="name" minlength="2" required />
         <br> <br>
-        <label for="email">Email:</label>
+        <label for="email">Email*:</label>
           <input type="email" id="email" name="email" pattern=".+@.+/" required />
         <br> <br>
         <label for="shirt-color">T-shirt Color:</label>
