@@ -14,14 +14,34 @@
     <main>
       <form>
         <!-- write your html here-->
-        <!-- 
-          try writing out the requirements first as comments
-        this will also help you fill in your PR message later-->
+
+        <label for="customers-name">Name*:</label>
+          <input type="text" id="customers-name" name="name" minlength="2" required />
+        <br> <br>
+        <label for="email">Email*:</label>
+          <input type="email" id="email" name="email" pattern=".+@.+/" required />
+        <br> <br>
+        <label for="shirt-color">T-shirt Color:</label>
+          <select id="shirt-color" name="color" required>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+          </select>
+        <br> <br>
+        <label for="shirt-size">T-shirt Size:</label>
+          <select id="shirt-size" name="size" required>
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+          </select>
       </form>
     </main>
     <footer>
       <!-- change to your name-->
-      <h2>By HOMEWORK SOLUTION</h2>
+      <h2>By Jannah Pitogo</h2>
     </footer>
   </body>
 </html>
